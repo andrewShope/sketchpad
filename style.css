@@ -1,0 +1,24 @@
+.center {
+	text-align: center;
+}
+
+h1 {
+	font-family: sans-serif;
+}
+
+#sketchContainer {
+	height: 400;
+	width: 400;
+	background-color: #D0D7D9;
+	border: 5px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	height: 4;
+	width: 4;
+	background-color: black;
+	display: inline-block;
+	opacity: 0;
+}
