@@ -16,9 +16,25 @@ h1 {
 }
 
 .row {
-	height: 4;
-	width: 4;
 	background-color: black;
 	display: inline-block;
 	opacity: 0;
+}
+
+#inputBoxes {
+	margin-top: 25;
+	font-family: sans-serif;
+}
+
+.dimBoxes {
+	width: 30;
+	text-align: center;
+	outline: none;
+	border: none;
+	background-color: #E6EBED;
+	font-family: sans-serif;
+}
+
+#inputBoxes input[type=button] {
+	margin-top: 5px;
 }
