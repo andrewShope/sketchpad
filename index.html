@@ -1,23 +1,29 @@
 <html>
 <head>
 	<title>Sketchpad!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="sketchpad.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="center">
 		<h1>Etch-A-Sketch!</h1>
 	</div>
-	<div id="sketchContainer">
+	<div id="outer">
+		
+		<div id="modifierContainer">
+			<h3>Modifiers:</h3>
+				<input type="checkbox" id="gradientMode" class="modifier"> Gradient Mode
+				<br>
+				<input type="checkbox" id="rainbowMode" class="modifier"> Rainbow Mode
+		</div>
+		<div id="sketchContainer"></div>
 	</div>
 	<div id="inputBoxes" class="center">
-		<form>
 			Create a new sketchpad that has
 			<input type="text" class="dimBoxes" value="20"> grids.
 			<br>
 			<input type="button" value="Do it!" id="newPadButton">
-		</form>
 	</div>
 </body>
 </html>
