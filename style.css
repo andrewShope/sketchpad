@@ -7,20 +7,28 @@ h1 {
 }
 
 #outer {
-	width: 100%;
+}
+
+#centerReference {
+	width: 400px;
 	height: 400px;
+	margin: 0 auto;
+	border: 5px solid black;
 }
 
 #sketchContainer {
-	height: 400;
-	width: 400;
+	width: 400px;
+	height: 400px;
 	background-color: #D0D7D9;
-	border: 5px solid black;
-	margin: 0 auto;
+	border: 0px solid black;
 }
 
+
 #modifierContainer {
-	float: right;
+	padding: 0 10;
+	position: relative;
+	bottom: 270px;
+	left: 410px;
 }
 
 .row {
@@ -45,4 +53,9 @@ h1 {
 
 #inputBoxes input[type=button] {
 	margin-top: 5px;
+}
+
+#modifierContainer h3 {
+	padding-left: 2px;
+	margin: 5 0;
 }
